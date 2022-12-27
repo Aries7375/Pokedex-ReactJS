@@ -1,0 +1,28 @@
+.pagination-cont {
+  width: 100%;
+  padding: 0 1rem;
+  margin: 6rem auto 0;
+  max-width: 90rem;
+}
+.pagination__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.pagination__list li {
+  height: 3.7rem;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: 0.1rem solid #e91e63;
+  color: var(--text-color);
+}
+.pagination__list li:hover {
+  background: #e91e63b5;
+}
+.page-active {
+  background: #e91e63 !important;
+  color: #fff !important;
+}
