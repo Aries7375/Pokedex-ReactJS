@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Pokedex from "./components/Pokedex/pokedex";
+import Pokedex from "./components/Pokedex/pokedex.jsx";
 import ProComponents from "./components/pokedex/ProComponents";
 import usePokemon from "./hook/usePokemon";
 import Home from "./pages/Home";
